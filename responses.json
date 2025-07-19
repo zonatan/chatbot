@@ -1,0 +1,14 @@
+{
+    "greeting": {
+        "default": "Hello! How can I assist you today?"
+    },
+    "question": {
+        "default": "That's an interesting question! Can you provide more details?",
+        "person": "Oh, you mentioned {name}! Tell me more about them.",
+        "after_greeting": "Nice to hear from you again! What's your question?"
+    },
+    "statement": {
+        "default": "Got it! Anything else you'd like to share?",
+        "date": "You mentioned {date}. Is that a special day?"
+    }
+}

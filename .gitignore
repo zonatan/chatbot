@@ -1,0 +1,50 @@
+# Folder virtual environment
+venv/
+Venv/
+ENV/
+env/
+.venv/
+
+# File konfigurasi/editor
+*.vscode/
+*.idea/
+*.sublime-project
+*.sublime-workspace
+
+# File Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# File log dan database lokal
+*.log
+*.sqlite3
+*.db
+
+# File dari testing/coverage
+htmlcov/
+.tox/
+.coverage
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+
+# File sistem
+.DS_Store
+Thumbs.db
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Environment/credential
+.env
+.env.*
+*.secret
+
+# Build output
+build/
+dist/
+*.egg-info/
+.eggs/
