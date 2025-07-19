@@ -48,3 +48,6 @@ build/
 dist/
 *.egg-info/
 .eggs/
+
+results/
+__pycache__/

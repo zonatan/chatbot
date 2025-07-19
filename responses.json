@@ -1,14 +1,49 @@
 {
     "greeting": {
-        "default": "Hello! How can I assist you today?"
+        "default": {
+            "response": "Hello! How can I assist you today?",
+            "score": 1.0
+        },
+        "Halo bro": {
+            "response": "Yo, apa kabar bro?",
+            "score": 1.0
+        },
+        "halo": {
+            "response": "Halo, apa kabar?",
+            "score": 1.0
+        },
+        "selamat pagi": {
+            "response": "Pagi! Semoga hari ini menyenangkan!",
+            "score": 1.0
+        }
     },
     "question": {
-        "default": "That's an interesting question! Can you provide more details?",
-        "person": "Oh, you mentioned {name}! Tell me more about them.",
-        "after_greeting": "Nice to hear from you again! What's your question?"
+        "default": {
+            "response": "That's an interesting question! Can you provide more details?",
+            "score": 1.0
+        },
+        "person": {
+            "response": "Oh, you mentioned {name}! Tell me more about them.",
+            "score": 1.0
+        },
+        "after_greeting": {
+            "response": "Nice to hear from you again! What's your question?",
+            "score": 1.0
+        },
+        "apa kabar?": {
+            "response": "Saya baik, terima kasih!",
+            "score": 1.0
+        }
     },
     "statement": {
-        "default": "Got it! Anything else you'd like to share?",
-        "date": "You mentioned {date}. Is that a special day?"
-    }
+        "default": {
+            "response": "Got it! Anything else you'd like to share?",
+            "score": 1.0
+        },
+        "date": {
+            "response": "You mentioned {date}. Is that a special day?",
+            "score": 1.0
+        }
+    },
+    "custom": {}
 }
